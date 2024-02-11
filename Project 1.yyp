@@ -35,7 +35,6 @@
   "resources": [
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
-    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},},
@@ -61,7 +60,6 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
-    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},},
