@@ -2,6 +2,11 @@
 // You can write your code in this editor
 #region //Get Player Input
 
+var key_left;
+var key_right;
+var key_jump;
+
+
 if (hascontrol){
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));

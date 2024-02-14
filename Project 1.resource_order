@@ -24,6 +24,8 @@
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"oDead","order":5,"path":"objects/oDead/oDead.yy",},
     {"name":"sTrees","order":13,"path":"sprites/sTrees/sTrees.yy",},
+    {"name":"GameFile","order":2,"path":"scripts/GameFile/GameFile.yy",},
+    {"name":"oMenu","order":9,"path":"objects/oMenu/oMenu.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sTrigger","order":11,"path":"sprites/sTrigger/sTrigger.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
