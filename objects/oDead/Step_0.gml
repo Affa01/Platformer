@@ -25,4 +25,7 @@ if(done == 0){
 		vsp = 0;
 	}
 	y = y + vsp;
+	
+	alarm[0] = 5 * game_get_speed(gamespeed_fps);
 }
+

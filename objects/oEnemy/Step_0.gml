@@ -37,4 +37,5 @@ if (!place_meeting(x,y+1,oWall)){
 //igual ao de baixo
 //if (key_left) image_xscale = -1; else image_xscale = 1;
 
-if (hsp != 0) image_xscale = sign(hsp);
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;

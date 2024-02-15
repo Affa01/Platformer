@@ -112,10 +112,17 @@
     {"name":"inst_2F03EA75","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2DC9A61C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_39065C65","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3476F18","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_AB8070D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_50952081","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bullet","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bullet","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3476F18","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AB8070D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50952081","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":768.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Gun","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28095514","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGun","path":"objects/oGun/oGun.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":768.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
