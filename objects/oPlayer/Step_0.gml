@@ -24,6 +24,11 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
+//while(keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right)){
+	
+//	random_range()
+//}
+
 //jump
 if (place_meeting(x,y+1,oWall)) and (key_jump){
 	vsp = -7;
