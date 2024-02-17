@@ -24,11 +24,6 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-//while(keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right)){
-	
-//	random_range()
-//}
-
 //jump
 if (place_meeting(x,y+1,oWall)) and (key_jump){
 	vsp = -7;
@@ -60,6 +55,7 @@ if (!place_meeting(x,y+1,oWall)){
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 } else {
+	if(sprite_index == sPlayerA) audio_play_sound(snLanding,10,false);
 	image_speed = 1
 	if (hsp == 0){
 		sprite_index = sPlayer;

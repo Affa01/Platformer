@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Autosave
 
 //Overwrite old save
 if(file_exists(SAVEFILE)) file_delete(SAVEFILE);
