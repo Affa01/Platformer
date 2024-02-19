@@ -5,6 +5,11 @@
 if (instance_exists(follow)){
 	xTo = follow.x;
 	yTo = follow.y;
+	
+	if (follow.object_index == oPDead) {
+		x = xTo;
+		y = yTo;
+	}
 }
 
 
@@ -31,3 +36,12 @@ if(layer_exists("Mountains")){
 if(layer_exists("Trees")){
 	layer_x("Trees", x/4); 
 }
+//if(layer_exists("Ring_Planet")){
+//	layer_x("Ring_Planet", x/2); 
+//}
+if(layer_exists("Big_Planet")){
+	layer_x("Big_Planet", x/2); 
+}
+//if(layer_exists("Double_Planet")){
+//	layer_x("Double_Planet", x); 
+//}

@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sPlanet",
-  "bbox_bottom": 296,
-  "bbox_left": 0,
-  "bbox_right": 299,
-  "bbox_top": 0,
+  "name": "sPlanet2",
+  "bbox_bottom": 77,
+  "bbox_left": 44,
+  "bbox_right": 243,
+  "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"038655f6-410e-4845-904d-e1424e216568",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"477976e3-dd12-417e-a730-e91220ac6400",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 297,
+  "height": 160,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd5f1d9c-57f6-4cc9-937d-adec0d7c650d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d275b8f8-9291-441e-b35e-9ed2d4a0805b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sPlanet",
+    "name": "sPlanet2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"038655f6-410e-4845-904d-e1424e216568","path":"sprites/sPlanet/sPlanet.yy",},},},"Disabled":false,"id":"ba67b9af-80a3-4483-969d-7b8019d347cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"477976e3-dd12-417e-a730-e91220ac6400","path":"sprites/sPlanet2/sPlanet2.yy",},},},"Disabled":false,"id":"36a7fc08-5b99-4773-9eb6-454849684312","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 300,
+  "width": 272,
 }

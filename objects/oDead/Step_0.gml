@@ -26,6 +26,14 @@ if(done == 0){
 	}
 	y = y + vsp;
 	
-	alarm[0] = 5 * game_get_speed(gamespeed_fps);
+	#region //timer destroy oDead
+	var destroy = function(){
+		instance_destroy();
+	}
+	
+	var timer = time_source_create(time_source_game, 5, time_source_units_seconds, destroy);
+	
+	time_source_start(timer);
+	#endregion
 }
 
