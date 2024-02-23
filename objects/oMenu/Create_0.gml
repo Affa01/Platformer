@@ -1,6 +1,6 @@
 /// @description Event GUI/Vars/Menu setup
 
-#macro SAVEFILE "Save.txt"
+#macro SAVEFILE "Save.sav"
 
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
