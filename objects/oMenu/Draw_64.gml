@@ -16,7 +16,7 @@ for (var _i = 0; _i < menu_items; _i++){
 		_col = c_gray;
 	};
 	var _xx = menu_x;
-	var _yy = menu_y - (menu_itemheight * (_i *2));
+	var _yy = menu_y - (menu_itemheight * (_i * 2));
 	
 	draw_set_color(c_black);
 	draw_text(_xx - _offset,_yy,_txt);
